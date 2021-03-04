@@ -84,12 +84,14 @@
   hw:
     - "[On the relationships between SVD, KLT, and PCA](https://www.sciencedirect.com/science/article/pii/0031320381900820), Gerbrands,
        Pattern Recognition, 1981"
+    - "[Trace optimization and eigenproblems in dimension reduction methods](https://www-users.cs.umn.edu/~saad/PDF/umsi-2009-31.pdf), Kikiopoulou, Chen, and Saad, NLAA 2010"
     - "[On the compression of low rank
       matrices](https://epubs.siam.org/doi/abs/10.1137/030602678),
       Cheng, Gimbutas, Martinsson, and Rokhlin, SISC 2005"
     - "[CUR matrix decompositions for improved data
        analysis](https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Mahoney-Drineas-2009-CUR.pdf),
        Mahoney and Drineas, PNAS 2009"
+    - "[Meeting notes](meetings/2021-03-04.html)"
 #
 # ==================
 # Week 5
