@@ -125,10 +125,44 @@
 #
 -
   date: 2021-03-16
-  info: Tensor eigenvectors and decompositions
+  info: Tensor basics, HOSVD, Tucker, and ALS
+  hw:
+    - "[Tensor Decompositions and
+       Applications](https://epubs-siam-org.proxy.library.cornell.edu/doi/10.1137/07070111X),
+       Kolda and Bader, SIREV, 2009"
+    - "[Tensor Computations and Applications in Data
+       Mining](https://client.blueskybroadcast.com/siam08/pdf/s18.pdf),
+       Elden, slides from SIAM AM 2008"
+    - "[From Matrix to
+       Tensor](https://www.cs.cornell.edu/cv/OtherPdf/Mat2Ten.pdf), Van
+       Loan, slides from Cornell CS colloquium"
+    - "[Tensors for Data Mining and Data
+       Fusion](https://www.cs.ucr.edu/~epapalex/papers/tist16-tensors.pdf),
+       Papalexakis, Faloutsos, and Sidriropoulos, ACM TIS, 2016" 
+    - "[Meeting notes](meetings/2021-03-16.html)"
 -
   date: 2021-03-18
-  info: Tensor eigenvectors and decompositions
+  info: CP decomposition and algorithms, CUR and tensor trains
+  hw:
+    - "[Tensor Decompositions and
+       Applications](https://epubs-siam-org.proxy.library.cornell.edu/doi/10.1137/07070111X),
+       Kolda and Bader, SIREV, 2009"
+    - "[Tensor Decompositions: A Mathematical Tool for Data
+       Analysis](https://www.osti.gov/servlets/purl/1513637), Kolda,
+       slides from JMM 2018"
+    - "[Epsilon-ALS for Orthogonal Low-Rank Tensor
+        Approximation](https://epubs-siam-org.proxy.library.cornell.edu/doi/abs/10.1137/19M1303113),
+        Yang, SIMAX 2020"
+    - "[Low Multilinear Rank Approximations of
+        Tensors](https://epubs-siam-org.proxy.library.cornell.edu/doi/abs/10.1137/19M1237016),
+        Che, Wei, and Yan, SIMAX 2020"
+    - "[Low-Rank Approximation in the Frobenius Norm by Column and Row
+        Subset Selection](https://epubs-siam-org.proxy.library.cornell.edu/doi/abs/10.1137/19M1281848),
+       Cortinovis and Kressner, SIMAX 2020"
+    - "[Stochastic Gradients for Large-Scale Tensor
+        Decomposition](https://epubs-siam-org.proxy.library.cornell.edu/doi/abs/10.1137/19M1266265),
+        Kolda and Hong, SIMODS 2020"
+    - "[Exercise notebook](meetings/nb-2021-03-18.ipynb)"
 #
 # ==================
 # Week 7
@@ -136,9 +170,30 @@
 -
   date: 2021-03-23
   info: Nonlinear dimensionality reduction
+  notes: 2021-03-23.pdf
+  hw:
+    - "[A global geometric framework for nonlinear dimensionality reduction](https://web.mit.edu/cocosci/Papers/sci_reprint.pdf),
+       Tenenbaum, de Silva, and Langford, Science 2000"
+    - "[Nonlinear dimensionality reduction by locally linear embedding](https://science.sciencemag.org/content/sci/290/5500/2323.full.pdf),
+       Roweis and Saul, Science 2000"
+    - "[Visualizing Data using t-SNE](https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf), van der Maaten and Hinton, JMLR
+       2008"
+    - "[Dimensionality Reduction: A Comparitive Review](https://lvdmaaten.github.io/publications/papers/TR_Dimensionality_Reduction_Review_2009.pdf), van der Maaten,
+      Postma, and van den Herik, Tech report 2009"
+    - "[Dimension Reduction: A Guided Tour](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/FnT_dimensionReduction.pdf), Burges, FTML 2009"
+    - "[Global versus local methods in nonlinear dimensionality reduction](https://web.mit.edu/cocosci/Papers/nips02-localglobal-in-press.pdf), de Silva and Tenenbaum, NeurIPS 2003"
+    - "[Large-scale SVD and manifold learning](https://www.jmlr.org/papers/v14/talwalkar13a.html), Talwalkar, Kumar, Mohri,
+       and Rowley, JMLR 2013"
+    - "[Accelerating t-SNE using tree-based algorithms](https://jmlr.org/papers/v15/vandermaaten14a.html), van der Maaten, JMLR 2014"
 -
   date: 2021-03-25
   info: Function approximation fundamentals
+  notes: 2021-03-25.pdf
+  hw:
+    - "[Nonlinear Approximation](https://www-cambridge-org.proxy.library.cornell.edu/core/journals/acta-numerica/article/nonlinear-approximation/C8E028C39B8A849690D0EC418516A934), DeVore, Acta Numerica 1998 - long, but please do read sections 1 and 9 at least"
+    - "[Approximation Theory and Approximation Practice](https://epubs-siam-org.proxy.library.cornell.edu/doi/book/10.1137/1.9781611975949), Trefethen, SIAM 2019 - a beautiful text, focused on polynomial and rational approximation in 1D; useful to skim, don't consider it assigned reading"
+    - "[A Course in Approximation Theory](http://www.ams.org.proxy.library.cornell.edu/books/gsm/101/gsm101.pdf), Cheney and Light, AMS 2009 - again, not considered assigned reading (unless you want to do DNN approximation, in which case please read ch 23-25)"
+    - "[Class notebook](meetings/nb-2021-03-25.ipynb)"
 #
 # ==================
 # Week 8
